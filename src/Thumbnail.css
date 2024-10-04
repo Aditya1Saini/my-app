@@ -1,0 +1,42 @@
+
+.carouselExampleCaptions
+{
+    justify-content: center;
+    margin-top: 30px;
+    /* height: 10vh; */
+    /* box-shadow: 60px -16px teal;
+     */     padding: 10px 10px 10px 10px;
+     /* animation: "carousel-item" 1s 5s  ease-in-out; */
+    
+}
+ .carousel-caption{
+    /* color: rgb(250, 252, 254); */
+    color: black;
+    
+
+}
+
+.carousel-item
+{
+    /* height:100vh;
+    width: 205vh; */
+    /* padding: 10px 1000px 50px 100px ; */
+    /* background-color: red ; */
+    float:left;
+    /* align-items: center; */
+}
+.carousel-inner{
+   height: 80%;
+   width: 100%;
+
+}
+.carousel-caption h5{
+    align-items: center;
+}
+.carousel-item img{
+    border-radius: 10%;
+
+    height:90vh;
+    width: 50vh;
+    
+}
