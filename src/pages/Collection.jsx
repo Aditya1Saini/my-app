@@ -1,24 +1,14 @@
 import React, { useContext, useEffect, useState } from 'react';
 import {ShopContext} from '../context/ShopContext';
-import { assets } from '../assets/frontend_assets/assets';
-import Title from '../component/Title';
-import Productitems from '../component/Productitems';
-
+import { assets } from '../assets/assets'
+import Title from '../assets/component/Title'
+import Productitems from '../assets/component/Productitems'
 const Collection = () => {
 const {products} =useContext(ShopContext);
   const [showFilter, setshowFilter]=useState(false);
   const[filterProducts,setfilterProducts]= useState([]);
   const [category,setcategory]=useState([]);
   const[subCategory,setsubCategory]=useState([]);
-  
-  useEffect(()=>{
-    setfilterProducts(products);
-  },[])
-  useEffect(()=>
-  {
-   console.log(category);
-
-  },[category])
   
 
   const toggleCategory=(e)=>
@@ -29,10 +19,22 @@ const {products} =useContext(ShopContext);
     }
     else{
       // ... is called spread operartor to add new entry
-      setcategory([prev=>[...[prev,e.target.value]]])
+      setcategory(prev=>[...prev,e.target.value])
 
     }
   }
+  
+  useEffect(()=>{
+    setfilterProducts(products);
+  },[])
+  
+  useEffect(()=>
+  {
+   console.log(category);
+
+  },[category])
+  
+
   const toggleSubCategory=(e)=>
   {
     if(subCategory.includes(e.target.value))
@@ -43,7 +45,42 @@ const {products} =useContext(ShopContext);
       setsubCategory(prev=>[...prev,e.target.value])
     }
   }
+ 
+  
+  const applyFilter= ()=>{
+    // provide the copy of products
+    let productsCopy=products.slice();
+    if(category.length>0)
+    {
+      productsCopy=productsCopy.filter(items => category.includes(items.category))
+    }
+    if(subCategory.length>0)
+    {
+      productsCopy= productsCopy.filter (items=> subCategory.includes(items.subCategory))
+    }
+    setfilterProducts(productsCopy)
+  }
+  const sortProduct =()=>
+  {
+    let fbCopy =filterProducts.slice();
+    switch (sortType)
+    {
+      case 'low-high':
+      setfilterProducts(fp.fbCopy.sort((a,b=>(a.price-b.price))));
+      break;
+      case 'high-low':
+        setfilterProducts(fp.fbCopy.sort((a,b=>(b.price-a.price))));
+      break;
+      default:
+        
 
+    }
+  }
+
+  useEffect (()=>
+  {
+    applyFilter();
+  },[category,subCategory])
 
 
 
@@ -60,7 +97,7 @@ const {products} =useContext(ShopContext);
           <p className='mb-3 text-sm font-medium '>CATEGORY</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className="flex gap-2">
-              <input type="checkbox" className='w-3' value={'Men'} onChange={toggleCategory}/>Men
+              <input type="checkbox" className='w-3' value={'Mens'} onChange={toggleCategory}/>Men
             </p>
             <p className="flex gap-2">
               <input type="checkbox" className='w-3' value={'Women'} onChange={toggleCategory}/>Women
@@ -75,13 +112,13 @@ const {products} =useContext(ShopContext);
           <p className='mb-3 text-sm font-medium '>TYPE</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className="flex gap-2">
-              <input type="checkbox" className='w-3' value={'Top wear'} />Top wear
+              <input type="checkbox" className='w-3' value={'Top wear'}onChange={toggleSubCategory}/>Top wear
             </p>
             <p className="flex gap-2">
-              <input type="checkbox" className='w-3' value={'Bottom wear'} />Bottom wear
+              <input type="checkbox" className='w-3' value={'Bottom wear'} onChange={toggleSubCategory}/>Bottom wear
             </p>
             <p className="flex gap-2">
-              <input type="checkbox" className='w-3' value={'Winter wear'} />Winter wear
+              <input type="checkbox" className='w-3' value={'Winter wear'} onChange={toggleSubCategory}/>Winter wear
             </p>
           </div>
         </div>
@@ -102,7 +139,7 @@ const {products} =useContext(ShopContext);
             {
               filterProducts.map((items,index)=>(
                 <Productitems key={index} id ={ items._id} image={items.image} name={items.name} price={items.price}/>
-
+              
               ))
             }
 

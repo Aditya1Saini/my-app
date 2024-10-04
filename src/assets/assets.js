@@ -1,35 +1,35 @@
-import purple_1 from './a1.jpg'
-import purple_2 from './a2.jpg'
-import purple_3 from './a3.jpg'
-import purple_4 from './a4.jpg'
-import purple_5 from './a5.jpg'
-import purple_6 from './a6.jpg'
-import purple_7 from './a7.jpg'
-import purple_8 from './a8.jpg'
-import purple_9 from './a9.jpg'
-import purple_10 from './a10.jpg'
-import red_1 from './b1.jpg'
-import red_2 from './b2.jpg'
-import red_3 from './b3.jpg'
-import red_4 from './b4.jpg'
-import red_5 from './b5.jpg'
-import red_6 from './b6.jpg'
-import red_7 from './b7.jpg'
-import red_8 from './b8.jpg'
-import red_9 from './b9.jpg'
-import red_10 from './b10.jpg'
-import red_11 from './b11.jpg'
-import Lightblue_1 from './c1.jpg'
-import Lightblue_2 from './c2.jpg'
-import Lightblue_3 from './c3.jpg'
-import Lightblue_4 from './c4.jpg'
-import Lightblue_5 from './c5.jpg'
-import Lightblue_6 from './c6.jpg'
-import Lightblue_7 from './c7.jpg'
-import Lightblue_8 from './c8.jpg'
-import Lightblue_9 from './c9.jpg'
+// import purple_1 from './a1.jpg'
+// import purple_2 from './a2.jpg'
+// import purple_3 from './a3.jpg'
+// import purple_4 from './a4.jpg'
+// import purple_5 from './a5.jpg'
+// import purple_6 from './a6.jpg'
+// import purple_7 from './a7.jpg'
+// import purple_8 from './a8.jpg'
+// import purple_9 from './a9.jpg'
+// import purple_10 from './a10.jpg'
+// import red_1 from './b1.jpg'
+// import red_2 from './b2.jpg'
+// import red_3 from './b3.jpg'
+// import red_4 from './b4.jpg'
+// import red_5 from './b5.jpg'
+// import red_6 from './b6.jpg'
+// import red_7 from './b7.jpg'
+// import red_8 from './b8.jpg'
+// import red_9 from './b9.jpg'
+// import red_10 from './b10.jpg'
+// import red_11 from './b11.jpg'
+// import Lightblue_1 from './c1.jpg'
+// import Lightblue_2 from './c2.jpg'
+// import Lightblue_3 from './c3.jpg'
+// import Lightblue_4 from './c4.jpg'
+// import Lightblue_5 from './c5.jpg'
+// import Lightblue_6 from './c6.jpg'
+// import Lightblue_7 from './c7.jpg'
+// import Lightblue_8 from './c8.jpg'
+// import Lightblue_9 from './c9.jpg'
 // ------------------------------------
-import p_img1 from './frontend_assets/'
+import p_img1 from './p_img1.png'
 import p_img2_1 from './p_img2_1.png'
 import p_img2_2 from './p_img2_2.png'
 import p_img2_3 from './p_img2_3.png'
@@ -84,9 +84,9 @@ import p_img49 from './p_img49.png'
 import p_img50 from './p_img50.png'
 import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
+// -------------------------------------------------
 
-
-import logo from './logo.png'
+// import logo from './logo.png'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
@@ -106,7 +106,7 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 //--------------------------------------------------------------------------------------
 
-import Logo from './Hargunlogo.png'
+// import logo from './Hargunlogo.png'
 import SearchIcon from './searchIcon.png'
 import SignIn from './signIN.png'
 import Wishlist from './wishlist.png'
@@ -122,7 +122,7 @@ import dropdown from './dropdown.png'
 
 export const assets=
 {
-    Logo,
+    
     SearchIcon,
     SignIn,
     Wishlist,
@@ -130,43 +130,103 @@ export const assets=
     BackIcon,
     menuIcon,
     exchange,
-    purple_1,
-    support,
     returnIcon,
-    red_1,
+    support,
     dropdown,
-    star_dull_icon,
-    star_icon,
-    bin_icon,
-    support_img,
-    menu_icon,
-    about_img,
-    contact_img,
-    razorpay_logo,
-    stripe_logo,
-    cross_icon
+    p_img1,
+    p_img2_1,
+    p_img2_2,
+    p_img2_3,
+    p_img2_4,
+    p_img3,
+    p_img4,
+    p_img5,
+    p_img6,
+    p_img7,
+    p_img8,
+    p_img9,
+    p_img10,
+    p_img11,
+    p_img12,
+    p_img13,
+    p_img14,
+    p_img15,
+    p_img16,
+    p_img17,
+    p_img18,
+    p_img19,
+p_img20,
+p_img21,
+p_img22,
+p_img23,
+p_img24,
+p_img25,
+p_img26,
+p_img27,
+p_img28,
+p_img29,
+p_img30,
+p_img31,
+p_img32,
+p_img33,
+p_img34,
+p_img35,
+p_img36,
+p_img37,
+p_img38,
+p_img39,
+p_img40,
+p_img41,
+p_img42,
+p_img43,
+p_img44,
+p_img45,
+p_img46,
+p_img47,
+p_img48,
+p_img49,
+p_img50,
+p_img51,
+p_img52,
+hero_img,
+cart_icon,
+bin_icon,
+dropdown_icon,
+exchange_icon,
+profile_icon,
+quality_icon,
+search_icon,
+star_dull_icon,
+star_icon,
+support_img,
+menu_icon,
+about_img,
+contact_img,
+razorpay_logo,
+stripe_logo,
+cross_icon,
 
 }
 export const products=[
 {
-    _id:"purple_1",
+    _id:"p1",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[purple_1],
-        category:"Womens",
+        image:[p_img1],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"purple_2",
+    _id:"p2",
     name:"Womens purple_2round neck floral printed   ",
     description:"Womens purple_2 round neck floral printed with elgant design ",
     	price :100,
-        image:[purple_2],
-        category:"Womens",
+        image:[p_img2_2],
+        category:   "womens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
@@ -174,832 +234,330 @@ export const products=[
     
 },
 {
-    _id:"purple_3",
+    _id:"p3",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[purple_3],
-        category:"Womens",
+        image:[p_img2_3],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"purple_4",
-    name:"Womens purple round neck floral printed   ",
-    description:"Womens purple round neck floral printed with elgant design ",
+    _id:"p4",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
     	price :100,
-        image:[purple_4],
-        category:"Womens",
+        image:[p_img2_4],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
-},{
-    _id:"purple_5",
+    
+},
+{
+    _id:"p6",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[purple_5],
-        category:"Womens",
-        subCategory:"Nightwear",
-        sizes:["S","M","L"],
-        date:12/10/2024,
-        bestseller:false,
-},
-{
-    _id:"red_1",
-    name:"Womens red round neck floral printed   ",
-    description:"Womens red round neck floral printed with elgant design ",
-        price :100,
-        image:[red_1,],
-        category:"Womens",
+        image:[p_img4],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"red_2",
+    _id:"p6",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img5],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p1",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[red_2],
-        category:"Womens",
+        image:[p_img6],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"red_3",
-    name:"Womens red_2 round neck floral printed   ",
-    description:"Womens red_2 round neck floral printed with elgant design ",
+    _id:"p8",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
     	price :100,
-        image:[red_3],
-        category:"Womens",
+        image:[p_img7],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p9",
+    name:"Womens purple round neck floral printed   ",
+    description:"Womens purple round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img8],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"red_4",
+    _id:"p10",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img9],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p11",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[red_4],
-        category:"Womens",
+        image:[p_img10],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"red_5",
-    name:"Womens purple round neck floral printed   ",
-    description:"Womens purple round neck floral printed with elgant design ",
+    _id:"p12",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
     	price :100,
-        image:[red_5],
-        category:"Womens",
+        image:[p_img11],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
-        bestseller:false,
+        bestseller:true,
+    
 },
 {
-    _id:"red_6",
+    _id:"p13",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[red_6],
-        category:"Womens",
+        image:[p_img12],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"Lightblue_1",
+    _id:"p14",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img13
+        ],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p15",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_1],
-        category:"Womens",
+        image:[p_img14],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"Lightblue_3",
+    _id:"p16",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img15],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p17",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_3],
-        category:"Womens",
+        image:[p_img16],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"Lightblue_4",
-    name:"Womens purple round neck floral printed   ",
-    description:"Womens purple round neck floral printed with elgant design ",
+    _id:"p18",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_4],
-        category:"Womens",
+        image:[p_img17],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
-        bestseller:false,
-},{
-    _id:"Lightblue_5",
+        bestseller:true,
+    
+},
+{
+    _id:"p19",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_5],
-        category:"Womens",
+        image:[p_img18],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"Lightblue_6",
-    name:"Womens purple round neck floral printed   ",
-    description:"Womens purple round neck floral printed with elgant design ",
+    _id:"p20",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_6],
-        category:"Womens",
+        image:[p_img19],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
-        bestseller:false,
+        bestseller:true,
+    
 },
 {
-    _id:"Lightblue_7",
+    _id:"p21",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_7],
-        category:"Womens",
+        image:[p_img20],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"Lightblue_8",
+    _id:"p22",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img21],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p23",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_8],
-        category:"Womens",
+        image:[p_img22],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
 {
-    _id:"Lightblue_2",
+    _id:"p24",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img23],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p25",
     name:"Womens purple round neck floral printed   ",
     description:"Womens purple round neck floral printed with elgant design ",
     	price :100,
-        image:[Lightblue_2],
-        category:"Womens",
+        image:[p_img24],
+        category:   "Mens",
         subCategory:"Nightwear",
         sizes:["S","M","L"],
         date:12/10/2024,
         bestseller:true,
 },
-
-// 
- 
-    {
-        _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716621345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img3],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716234545448,
-        bestseller: true
-    },
-    {
-        _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "XXL"],
-        date: 1716621345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img5],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: true
-    },
-    {
-        _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img6],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716623423448,
-        bestseller: true
-    },
-    {
-        _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img7],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716621542448,
-        bestseller: false
-    },
-    {
-        _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img8],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img9],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716621235448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img10],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716622235448,
-        bestseller: false
-    },
-    {
-        _id: "aaaak",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 120,
-        image: [p_img11],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716623345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaal",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img12],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716624445448,
-        bestseller: false
-    },
-    {
-        _id: "aaaam",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img13],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716625545448,
-        bestseller: false
-    },
-    {
-        _id: "aaaan",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img14],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716626645448,
-        bestseller: false
-    },
-    {
-        _id: "aaaao",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img15],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716627745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaap",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img16],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716628845448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaq",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img17],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716629945448,
-        bestseller: false
-    },
-    {
-        _id: "aaaar",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img18],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716631045448,
-        bestseller: false
-    },
-    {
-        _id: "aaaas",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img19],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716632145448,
-        bestseller: false
-    },
-    {
-        _id: "aaaat",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img20],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716633245448,
-        bestseller: false
-    },
-    {
-        _id: "aaaau",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img21],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaav",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img22],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716635445448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaw",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img23],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716636545448,
-        bestseller: false
-    },
-    {
-        _id: "aaaax",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img24],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716637645448,
-        bestseller: false
-    },
-    {
-        _id: "aaaay",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img25],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716638745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaz",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img26],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716639845448,
-        bestseller: false
-    },
-    {
-        _id: "aaaba",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img27],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716640945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabb",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img28],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716642045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabc",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img29],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716643145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabd",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img30],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716644245448,
-        bestseller: false
-    },
-    {
-        _id: "aaabe",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img31],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716645345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabf",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img32],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716646445448,
-        bestseller: false
-    },
-    {
-        _id: "aaabg",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img33],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716647545448,
-        bestseller: false
-    },
-    {
-        _id: "aaabh",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [p_img34],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716648645448,
-        bestseller: false
-    },
-    {
-        _id: "aaabi",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img35],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716649745448,
-        bestseller: false
-    },
-    {
-        _id: "aaabj",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img36],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716650845448,
-        bestseller: false
-    },
-    {
-        _id: "aaabk",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img37],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716651945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img38],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716653045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabm",
-        name: "Men Printed Plain Cotton Shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [p_img39],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716654145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabn",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img40],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716655245448,
-        bestseller: false
-    },
-    {
-        _id: "aaabo",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img41],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716656345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img42],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716657445448,
-        bestseller: false
-    },
-    {
-        _id: "aaabq",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img43],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716658545448,
-        bestseller: false
-    },
-    {
-        _id: "aaabr",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img44],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716659645448,
-        bestseller: false
-    },
-    {
-        _id: "aaabs",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img45],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716660745448,
-        bestseller: false
-    },
-    {
-        _id: "aaabt",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img46],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716661845448,
-        bestseller: false
-    },
-    {
-        _id: "aaabu",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img47],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716662945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabv",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 330,
-        image: [p_img48],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716664045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabw",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img49],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716665145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabx",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 340,
-        image: [p_img50],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716666245448, bestseller: false
-    },
-    {
-        _id: "aaaby",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img51],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716667345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabz",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 350,
-        image: [p_img52],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716668445448,
-        bestseller: false
-    }
-
+{
+    _id:"p26",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img25],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
+{
+    _id:"p27",
+    name:"Womens purple round neck floral printed   ",
+    description:"Womens purple round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img26],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+},
+{
+    _id:"p28",
+    name:"Womens purple_2round neck floral printed   ",
+    description:"Womens purple_2 round neck floral printed with elgant design ",
+    	price :100,
+        image:[p_img27
+        ],
+        category:   "Mens",
+        subCategory:"Nightwear",
+        sizes:["S","M","L"],
+        date:12/10/2024,
+        bestseller:true,
+    
+},
 ]
